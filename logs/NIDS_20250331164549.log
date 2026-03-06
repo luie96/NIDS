@@ -1,0 +1,1467 @@
+2025-03-31 16:45:49 [INFO] Logging system initialized
+2025-03-31 16:45:49 [INFO] Starting NIDS with rule file: rules/exampleRules.txt
+2025-03-31 16:45:50 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 79
+	 Identification: 52807
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 19722
+	 Source: 172.27.64.171
+	 Destination: 120.92.122.52
+[TCP Header]
+	 Source Port: 55173
+	 Destination Port: 443
+	 Sequence Number: 1757994420
+	 Acknowledgment Number: 3520386680
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: PA
+	 Window Size: 508
+	 Checksum: 47195
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:50 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 79
+	 Identification: 51138
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 28563
+	 Source: 172.27.64.171
+	 Destination: 120.92.94.48
+[TCP Header]
+	 Source Port: 55174
+	 Destination Port: 443
+	 Sequence Number: 2420334578
+	 Acknowledgment Number: 1049479551
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: PA
+	 Window Size: 511
+	 Checksum: 38310
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:50 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 158
+	 Identification: 28060
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 56865
+	 Source: 172.27.64.171
+	 Destination: 20.189.173.24
+[TCP Header]
+	 Source Port: 55118
+	 Destination Port: 443
+	 Sequence Number: 8878543
+	 Acknowledgment Number: 1369289264
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: PA
+	 Window Size: 514
+	 Checksum: 54792
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:50 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 1480
+	 Identification: 28061
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 55542
+	 Source: 172.27.64.171
+	 Destination: 20.189.173.24
+[TCP Header]
+	 Source Port: 55118
+	 Destination Port: 443
+	 Sequence Number: 8878661
+	 Acknowledgment Number: 1369289264
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: A
+	 Window Size: 514
+	 Checksum: 2085
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:50 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 1480
+	 Identification: 28062
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 55541
+	 Source: 172.27.64.171
+	 Destination: 20.189.173.24
+[TCP Header]
+	 Source Port: 55118
+	 Destination Port: 443
+	 Sequence Number: 8880101
+	 Acknowledgment Number: 1369289264
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: A
+	 Window Size: 514
+	 Checksum: 11924
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:50 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 1480
+	 Identification: 28063
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 55540
+	 Source: 172.27.64.171
+	 Destination: 20.189.173.24
+[TCP Header]
+	 Source Port: 55118
+	 Destination Port: 443
+	 Sequence Number: 8881541
+	 Acknowledgment Number: 1369289264
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: A
+	 Window Size: 514
+	 Checksum: 839
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:50 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 133
+	 Identification: 28064
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 56886
+	 Source: 172.27.64.171
+	 Destination: 20.189.173.24
+[TCP Header]
+	 Source Port: 55118
+	 Destination Port: 443
+	 Sequence Number: 8882981
+	 Acknowledgment Number: 1369289264
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: PA
+	 Window Size: 514
+	 Checksum: 34414
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:50 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 52
+	 Identification: 49162
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 54016
+	 Source: 172.27.64.171
+	 Destination: 51.105.71.137
+[TCP Header]
+	 Source Port: 55219
+	 Destination Port: 443
+	 Sequence Number: 1862133702
+	 Acknowledgment Number: 0
+	 Data Offset: 8
+	 Reserved: 0
+	 Flags: S
+	 Window Size: 64240
+	 Checksum: 56371
+	 Options: [('MSS', 1460), ('NOP', None), ('WScale', 8), ('NOP', None), ('NOP', None), ('SAckOK', b'')]
+[TCP Payload]
+
+
+2025-03-31 16:45:50 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 75
+	 Identification: 28065
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 56943
+	 Source: 172.27.64.171
+	 Destination: 20.189.173.24
+[TCP Header]
+	 Source Port: 55118
+	 Destination Port: 443
+	 Sequence Number: 8883074
+	 Acknowledgment Number: 1369289362
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: PA
+	 Window Size: 513
+	 Checksum: 22638
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:50 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 40
+	 Identification: 49163
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 54027
+	 Source: 172.27.64.171
+	 Destination: 51.105.71.137
+[TCP Header]
+	 Source Port: 55219
+	 Destination Port: 443
+	 Sequence Number: 1862133703
+	 Acknowledgment Number: 970279025
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: A
+	 Window Size: 517
+	 Checksum: 37788
+[TCP Payload]
+
+
+2025-03-31 16:45:50 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 557
+	 Identification: 49164
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 53509
+	 Source: 172.27.64.171
+	 Destination: 51.105.71.137
+[TCP Header]
+	 Source Port: 55219
+	 Destination Port: 443
+	 Sequence Number: 1862133703
+	 Acknowledgment Number: 970279025
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: PA
+	 Window Size: 517
+	 Checksum: 21889
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:51 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 477
+	 Identification: 49165
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 53588
+	 Source: 172.27.64.171
+	 Destination: 51.105.71.137
+[TCP Header]
+	 Source Port: 55219
+	 Destination Port: 443
+	 Sequence Number: 1862134220
+	 Acknowledgment Number: 970279124
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: PA
+	 Window Size: 517
+	 Checksum: 37926
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:51 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 52
+	 Identification: 49166
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 54012
+	 Source: 172.27.64.171
+	 Destination: 51.105.71.137
+[TCP Header]
+	 Source Port: 55219
+	 Destination Port: 443
+	 Sequence Number: 1862134657
+	 Acknowledgment Number: 970282044
+	 Data Offset: 8
+	 Reserved: 0
+	 Flags: A
+	 Window Size: 517
+	 Checksum: 9693
+	 Options: [('NOP', None), ('NOP', None), ('SAck', (970283504, 970283656))]
+[TCP Payload]
+
+
+2025-03-31 16:45:51 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 40
+	 Identification: 49167
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 54023
+	 Source: 172.27.64.171
+	 Destination: 51.105.71.137
+[TCP Header]
+	 Source Port: 55219
+	 Destination Port: 443
+	 Sequence Number: 1862134657
+	 Acknowledgment Number: 970283656
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: A
+	 Window Size: 517
+	 Checksum: 32203
+[TCP Payload]
+
+
+2025-03-31 16:45:51 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 1480
+	 Identification: 49168
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 52582
+	 Source: 172.27.64.171
+	 Destination: 51.105.71.137
+[TCP Header]
+	 Source Port: 55219
+	 Destination Port: 443
+	 Sequence Number: 1862134657
+	 Acknowledgment Number: 970283656
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: A
+	 Window Size: 517
+	 Checksum: 20279
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:51 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 1480
+	 Identification: 49169
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 52581
+	 Source: 172.27.64.171
+	 Destination: 51.105.71.137
+[TCP Header]
+	 Source Port: 55219
+	 Destination Port: 443
+	 Sequence Number: 1862136097
+	 Acknowledgment Number: 970283656
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: A
+	 Window Size: 517
+	 Checksum: 42584
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:51 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 1480
+	 Identification: 49170
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 52580
+	 Source: 172.27.64.171
+	 Destination: 51.105.71.137
+[TCP Header]
+	 Source Port: 55219
+	 Destination Port: 443
+	 Sequence Number: 1862137537
+	 Acknowledgment Number: 970283656
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: A
+	 Window Size: 517
+	 Checksum: 2181
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:51 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 1480
+	 Identification: 49171
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 52579
+	 Source: 172.27.64.171
+	 Destination: 51.105.71.137
+[TCP Header]
+	 Source Port: 55219
+	 Destination Port: 443
+	 Sequence Number: 1862138977
+	 Acknowledgment Number: 970283656
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: A
+	 Window Size: 517
+	 Checksum: 48654
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:51 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 1088
+	 Identification: 49172
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 52970
+	 Source: 172.27.64.171
+	 Destination: 51.105.71.137
+[TCP Header]
+	 Source Port: 55219
+	 Destination Port: 443
+	 Sequence Number: 1862140417
+	 Acknowledgment Number: 970283656
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: PA
+	 Window Size: 517
+	 Checksum: 63633
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:51 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 40
+	 Identification: 49173
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 54017
+	 Source: 172.27.64.171
+	 Destination: 51.105.71.137
+[TCP Header]
+	 Source Port: 55219
+	 Destination Port: 443
+	 Sequence Number: 1862141465
+	 Acknowledgment Number: 970284224
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: A
+	 Window Size: 515
+	 Checksum: 24829
+[TCP Payload]
+
+
+2025-03-31 16:45:51 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 64
+	 Identification: 49174
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 53992
+	 Source: 172.27.64.171
+	 Destination: 51.105.71.137
+[TCP Header]
+	 Source Port: 55219
+	 Destination Port: 443
+	 Sequence Number: 1862141465
+	 Acknowledgment Number: 970284224
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: PA
+	 Window Size: 515
+	 Checksum: 35873
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:51 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 40
+	 Identification: 49175
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 54015
+	 Source: 172.27.64.171
+	 Destination: 51.105.71.137
+[TCP Header]
+	 Source Port: 55219
+	 Destination Port: 443
+	 Sequence Number: 1862141489
+	 Acknowledgment Number: 970284224
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: FA
+	 Window Size: 515
+	 Checksum: 24804
+[TCP Payload]
+
+
+2025-03-31 16:45:52 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 76
+	 Identification: 62673
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 17793
+	 Source: 172.27.64.171
+	 Destination: 182.92.29.54
+[TCP Header]
+	 Source Port: 54812
+	 Destination Port: 443
+	 Sequence Number: 525431347
+	 Acknowledgment Number: 2349399660
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: PA
+	 Window Size: 64564
+	 Checksum: 37438
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:52 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 52
+	 Identification: 38462
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 48465
+	 Source: 172.27.64.171
+	 Destination: 120.133.65.232
+[TCP Header]
+	 Source Port: 55217
+	 Destination Port: 443
+	 Sequence Number: 1250876964
+	 Acknowledgment Number: 0
+	 Data Offset: 8
+	 Reserved: 0
+	 Flags: S
+	 Window Size: 64240
+	 Checksum: 51915
+	 Options: [('MSS', 1460), ('NOP', None), ('WScale', 8), ('NOP', None), ('NOP', None), ('SAckOK', b'')]
+[TCP Payload]
+
+
+2025-03-31 16:45:52 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 40
+	 Identification: 62674
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 17828
+	 Source: 172.27.64.171
+	 Destination: 182.92.29.54
+[TCP Header]
+	 Source Port: 54812
+	 Destination Port: 443
+	 Sequence Number: 525431383
+	 Acknowledgment Number: 2349399692
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: A
+	 Window Size: 64532
+	 Checksum: 65360
+[TCP Payload]
+
+
+2025-03-31 16:45:52 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 52
+	 Identification: 26003
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 59399
+	 Source: 172.27.64.171
+	 Destination: 13.89.179.9
+[TCP Header]
+	 Source Port: 55213
+	 Destination Port: 443
+	 Sequence Number: 3541266644
+	 Acknowledgment Number: 0
+	 Data Offset: 8
+	 Reserved: 0
+	 Flags: S
+	 Window Size: 64240
+	 Checksum: 43429
+	 Options: [('MSS', 1460), ('NOP', None), ('WScale', 8), ('NOP', None), ('NOP', None), ('SAckOK', b'')]
+[TCP Payload]
+
+
+2025-03-31 16:45:53 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 52
+	 Identification: 26004
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 59398
+	 Source: 172.27.64.171
+	 Destination: 13.89.179.9
+[TCP Header]
+	 Source Port: 55214
+	 Destination Port: 443
+	 Sequence Number: 1280732327
+	 Acknowledgment Number: 0
+	 Data Offset: 8
+	 Reserved: 0
+	 Flags: S
+	 Window Size: 64240
+	 Checksum: 13455
+	 Options: [('MSS', 1460), ('NOP', None), ('WScale', 8), ('NOP', None), ('NOP', None), ('SAckOK', b'')]
+[TCP Payload]
+
+
+2025-03-31 16:45:57 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 52
+	 Identification: 38463
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 48464
+	 Source: 172.27.64.171
+	 Destination: 120.133.65.232
+[TCP Header]
+	 Source Port: 55220
+	 Destination Port: 443
+	 Sequence Number: 305896795
+	 Acknowledgment Number: 0
+	 Data Offset: 8
+	 Reserved: 0
+	 Flags: S
+	 Window Size: 64240
+	 Checksum: 17381
+	 Options: [('MSS', 1460), ('NOP', None), ('WScale', 8), ('NOP', None), ('NOP', None), ('SAckOK', b'')]
+[TCP Payload]
+
+
+2025-03-31 16:45:58 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 52
+	 Identification: 38464
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 48463
+	 Source: 172.27.64.171
+	 Destination: 120.133.65.232
+[TCP Header]
+	 Source Port: 55220
+	 Destination Port: 443
+	 Sequence Number: 305896795
+	 Acknowledgment Number: 0
+	 Data Offset: 8
+	 Reserved: 0
+	 Flags: S
+	 Window Size: 64240
+	 Checksum: 17381
+	 Options: [('MSS', 1460), ('NOP', None), ('WScale', 8), ('NOP', None), ('NOP', None), ('SAckOK', b'')]
+[TCP Payload]
+
+
+2025-03-31 16:45:58 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 648
+	 Identification: 49714
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 24914
+	 Source: 172.27.64.171
+	 Destination: 110.43.121.249
+[TCP Header]
+	 Source Port: 55175
+	 Destination Port: 443
+	 Sequence Number: 2821761628
+	 Acknowledgment Number: 3452337330
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: PA
+	 Window Size: 515
+	 Checksum: 24661
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:58 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 40
+	 Identification: 49715
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 25521
+	 Source: 172.27.64.171
+	 Destination: 110.43.121.249
+[TCP Header]
+	 Source Port: 55175
+	 Destination Port: 443
+	 Sequence Number: 2821762236
+	 Acknowledgment Number: 3452338913
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: A
+	 Window Size: 515
+	 Checksum: 23054
+[TCP Payload]
+
+
+2025-03-31 16:45:58 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 1106
+	 Identification: 48963
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 30359
+	 Source: 172.27.64.171
+	 Destination: 120.92.91.168
+[TCP Header]
+	 Source Port: 55164
+	 Destination Port: 443
+	 Sequence Number: 1089449240
+	 Acknowledgment Number: 1110363924
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: PA
+	 Window Size: 509
+	 Checksum: 23181
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:58 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 40
+	 Identification: 48964
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 31424
+	 Source: 172.27.64.171
+	 Destination: 120.92.91.168
+[TCP Header]
+	 Source Port: 55164
+	 Destination Port: 443
+	 Sequence Number: 1089450306
+	 Acknowledgment Number: 1110364104
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: A
+	 Window Size: 508
+	 Checksum: 4013
+[TCP Payload]
+
+
+2025-03-31 16:45:59 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 159
+	 Identification: 28066
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 56858
+	 Source: 172.27.64.171
+	 Destination: 20.189.173.24
+[TCP Header]
+	 Source Port: 55118
+	 Destination Port: 443
+	 Sequence Number: 8883109
+	 Acknowledgment Number: 1369289362
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: PA
+	 Window Size: 513
+	 Checksum: 5050
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:59 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 1480
+	 Identification: 28067
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 55536
+	 Source: 172.27.64.171
+	 Destination: 20.189.173.24
+[TCP Header]
+	 Source Port: 55118
+	 Destination Port: 443
+	 Sequence Number: 8883228
+	 Acknowledgment Number: 1369289362
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: A
+	 Window Size: 513
+	 Checksum: 62563
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:59 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 1480
+	 Identification: 28068
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 55535
+	 Source: 172.27.64.171
+	 Destination: 20.189.173.24
+[TCP Header]
+	 Source Port: 55118
+	 Destination Port: 443
+	 Sequence Number: 8884668
+	 Acknowledgment Number: 1369289362
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: A
+	 Window Size: 513
+	 Checksum: 53935
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:59 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 1480
+	 Identification: 28069
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 55534
+	 Source: 172.27.64.171
+	 Destination: 20.189.173.24
+[TCP Header]
+	 Source Port: 55118
+	 Destination Port: 443
+	 Sequence Number: 8886108
+	 Acknowledgment Number: 1369289362
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: A
+	 Window Size: 513
+	 Checksum: 50940
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:59 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 1480
+	 Identification: 28070
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 55533
+	 Source: 172.27.64.171
+	 Destination: 20.189.173.24
+[TCP Header]
+	 Source Port: 55118
+	 Destination Port: 443
+	 Sequence Number: 8887548
+	 Acknowledgment Number: 1369289362
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: A
+	 Window Size: 513
+	 Checksum: 36502
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:59 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 1480
+	 Identification: 28071
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 55532
+	 Source: 172.27.64.171
+	 Destination: 20.189.173.24
+[TCP Header]
+	 Source Port: 55118
+	 Destination Port: 443
+	 Sequence Number: 8888988
+	 Acknowledgment Number: 1369289362
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: A
+	 Window Size: 513
+	 Checksum: 62707
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:59 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 1480
+	 Identification: 28072
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 55531
+	 Source: 172.27.64.171
+	 Destination: 20.189.173.24
+[TCP Header]
+	 Source Port: 55118
+	 Destination Port: 443
+	 Sequence Number: 8890428
+	 Acknowledgment Number: 1369289362
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: A
+	 Window Size: 513
+	 Checksum: 21620
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:59 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 1480
+	 Identification: 28073
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 55530
+	 Source: 172.27.64.171
+	 Destination: 20.189.173.24
+[TCP Header]
+	 Source Port: 55118
+	 Destination Port: 443
+	 Sequence Number: 8891868
+	 Acknowledgment Number: 1369289362
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: A
+	 Window Size: 513
+	 Checksum: 26237
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:59 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 887
+	 Identification: 28074
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 56122
+	 Source: 172.27.64.171
+	 Destination: 20.189.173.24
+[TCP Header]
+	 Source Port: 55118
+	 Destination Port: 443
+	 Sequence Number: 8893308
+	 Acknowledgment Number: 1369289362
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: PA
+	 Window Size: 513
+	 Checksum: 36554
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:45:59 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 75
+	 Identification: 28075
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 56933
+	 Source: 172.27.64.171
+	 Destination: 20.189.173.24
+[TCP Header]
+	 Source Port: 55118
+	 Destination Port: 443
+	 Sequence Number: 8894155
+	 Acknowledgment Number: 1369289456
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: PA
+	 Window Size: 513
+	 Checksum: 16265
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:46:00 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 79
+	 Identification: 52808
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 19721
+	 Source: 172.27.64.171
+	 Destination: 120.92.122.52
+[TCP Header]
+	 Source Port: 55173
+	 Destination Port: 443
+	 Sequence Number: 1757994459
+	 Acknowledgment Number: 3520386714
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: PA
+	 Window Size: 507
+	 Checksum: 40209
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:46:00 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 79
+	 Identification: 51139
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 28562
+	 Source: 172.27.64.171
+	 Destination: 120.92.94.48
+[TCP Header]
+	 Source Port: 55174
+	 Destination Port: 443
+	 Sequence Number: 2420334617
+	 Acknowledgment Number: 1049479585
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: PA
+	 Window Size: 511
+	 Checksum: 56040
+[TCP Payload]
+	Raw
+
+
+2025-03-31 16:46:00 [WARNING]  ALERT "HTTPS traffic"
+Rule matched :
+alert tcp any any -> any 443 (msg:"HTTPS traffic")
+
+By packet :
+[IP HEADER]
+	 Version: 4
+	 IHL: 20 bytes
+	 ToS: 0
+	 Total Length: 52
+	 Identification: 38465
+	 Flags: DF
+	 Fragment Offset: 0
+	 TTL: 128
+	 Protocol: 6
+	 Header Checksum: 48462
+	 Source: 172.27.64.171
+	 Destination: 120.133.65.232
+[TCP Header]
+	 Source Port: 55220
+	 Destination Port: 443
+	 Sequence Number: 305896795
+	 Acknowledgment Number: 0
+	 Data Offset: 8
+	 Reserved: 0
+	 Flags: S
+	 Window Size: 64240
+	 Checksum: 17381
+	 Options: [('MSS', 1460), ('NOP', None), ('WScale', 8), ('NOP', None), ('NOP', None), ('SAckOK', b'')]
+[TCP Payload]
+
+

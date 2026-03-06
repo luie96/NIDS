@@ -1,0 +1,25 @@
+# DNS 监控
+alert udp any any -> 8.8.8.8 53 (msg:"DNS to Google"; service:DNS;)
+alert udp any any -> 180.76.76.76 53 (msg:"DNS to Baidu"; service:DNS;)
+
+# NTP 监控
+alert udp any any -> any 123 (msg:"NTP traffic"; service:NTP;)
+
+# 网络设备监控
+alert tcp 192.168.0.1 any -> 192.168.0.0/16 any (msg:"Gateway to subnet"; service:Internal;)
+
+# Web 服务监控
+alert tcp any any -> any 80 (msg:"HTTP traffic"; service:HTTP; content:"GET";)
+alert tcp any any -> any 443 (msg:"HTTPS traffic"; service:HTTPS;)
+
+# 其他协议监控
+alert tcp any any -> any 21 (msg:"FTP traffic"; service:FTP;)
+alert tcp any any -> any 22 (msg:"SSH traffic"; service:SSH;)
+alert tcp any any -> any 23 (msg:"Telnet traffic"; service:Telnet;)
+alert tcp any any -> any 25 (msg:"SMTP traffic"; service:SMTP;)
+alert tcp any any -> any 143 (msg:"IMAP traffic"; service:IMAP;)
+alert tcp any any -> any 3389 (msg:"RDP traffic"; service:RDP;)
+alert udp any any -> any 161 (msg:"SNMP traffic"; service:SNMP;)
+alert tcp any any -> any 3306 (msg:"MySQL traffic"; service:MySQL;)
+alert tcp any any -> any 5432 (msg:"PostgreSQL traffic"; service:PostgreSQL;)
+alert tcp any any -> any 6379 (msg:"Redis traffic"; service:Redis;)
